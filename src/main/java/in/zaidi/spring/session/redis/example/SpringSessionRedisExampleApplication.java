@@ -6,15 +6,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class SpringSessionRedisDemoApplication extends SpringBootServletInitializer {
+public class SpringSessionRedisExampleApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringSessionRedisDemoApplication.class, args);
+        SpringApplication.run(SpringSessionRedisExampleApplication.class, args);
     }
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SpringSessionRedisDemoApplication.class);
+        return application.sources(SpringSessionRedisExampleApplication.class);
     }
 
 }

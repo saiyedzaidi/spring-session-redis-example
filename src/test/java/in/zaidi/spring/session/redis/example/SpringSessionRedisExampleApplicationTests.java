@@ -1,4 +1,4 @@
-package com.selzlein.djeison.springsessionredisdemo;
+package in.zaidi.spring.session.redis.example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
